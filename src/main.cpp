@@ -346,7 +346,7 @@ void driveTrain(const double movementSpeed, const driverPresets currentPreset)
 		pros::lcd::print(0, "Running Rotation");
 	}
 	// Non-Holomonic Headless Mode for Henry's second preset
-	else if (currentPreset == driverPresets::HENRY2) 
+	else if (currentPreset == driverPresets::HENRY2)
 	{
 		headlessMode(movementSpeed);
 	}
